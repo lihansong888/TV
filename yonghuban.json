@@ -1,0 +1,53 @@
+// --- 1. 定义文件名逻辑 ---
+let myUserId = localStorage.getItem('fund_user_fingerprint');
+if (!myUserId) {
+    // 随机生成5位ID，如 a8x2b
+    myUserId = Math.random().toString(36).substr(2, 5); 
+    localStorage.setItem('fund_user_fingerprint', myUserId);
+}
+
+// 这里使用了你指定的名称 yonghuban
+// 最终在 GitHub 产生的文件名类似于：yonghuban_a8x2b.json
+const CLOUD_FILE_NAME = `yonghuban_${myUserId}.json`;
+
+
+// --- 2. 优化后的备份函数（解决“一直显示备份中”） ---
+async function syncToCloud() {
+  if (!ADMIN_CONFIG.token || !ADMIN_CONFIG.gistId) return;
+  const statusEl = document.getElementById('cloudStatus');
+  statusEl.innerText = '同步中...';
+
+  // 强制超时设置：如果8秒没连上 GitHub 就自动断开，防止页面卡死
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+  try {
+    const res = await fetch(`https://api.github.com/gists/${ADMIN_CONFIG.gistId}`, {
+      method: 'PATCH',
+      headers: { 
+        'Authorization': `token ${ADMIN_CONFIG.token}`, 
+        'Content-Type': 'application/json' 
+      },
+      body: JSON.stringify({ 
+        files: { [CLOUD_FILE_NAME]: { content: JSON.stringify(fundList) } } 
+      }),
+      signal: controller.signal
+    });
+
+    clearTimeout(timeoutId);
+
+    if (res.ok) { 
+      statusEl.innerText = '备份成功'; 
+    } else { 
+      statusEl.innerText = '同步失败';
+      console.error('错误码：', res.status);
+    }
+  } catch (e) {
+    clearTimeout(timeoutId);
+    statusEl.innerText = '网络超时';
+    // 如果是因为网络环境（Wi-Fi封锁）导致的超时，这里会捕获
+    if (e.name === 'AbortError') {
+      showToast('连接GitHub超时，请尝试切换手机流量');
+    }
+  }
+}
