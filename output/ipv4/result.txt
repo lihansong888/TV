@@ -1,11 +1,14 @@
 🕘️更新时间,#genre#
-2026-08-24 18:48:13,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
+2026-08-25 06:33:11,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 
 📺央视频道,#genre#
 CCTV-2,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
+CCTV-3,http://101.66.198.245:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-5,http://36.49.50.4:8800/rtp/239.37.0.232:5540
 CCTV-5,http://115.171.216.32:4000/rtp/225.1.8.89:8000
+CCTV-7,http://101.66.198.179:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-10,https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
+CCTV-10,http://101.66.198.245:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
 CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 
 💰央视付费频道,#genre#
@@ -13,18 +16,28 @@ CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 📡卫视频道,#genre#
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
+北京卫视,http://101.66.198.55:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
 湖北卫视,http://192.151.150.154/live/hbwshd.m3u8
+安徽卫视,http://101.66.198.179:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
+重庆卫视,http://101.66.198.179:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
+东方卫视,http://101.66.198.55:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
+东南卫视,http://101.66.198.179:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 海南卫视,http://www.negative.top:50000/rtp/233.50.200.165:5140
 吉林卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd
 辽宁卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lnwshd
 陕西卫视,http://192.151.150.154/live/snwshd.m3u8
 四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+四川卫视,http://101.66.198.179:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
 新疆卫视,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
+云南卫视,http://101.66.198.179:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
 
 ☘️广东频道,#genre#
 广东珠江,http://38.75.136.137:98/gslb/dsdqpub/gdzj.m3u8?auth=testpub
 
 ☘️浙江频道,#genre#
+浙江新闻,http://101.66.198.245:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
+之江纪录,http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+之江纪录,https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 湖州新闻综合,http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865
 湖州新闻综合,https://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865
 湖州文化娱乐,http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
@@ -42,8 +55,6 @@ CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 北京青年,http://player.cntv.cn/standard/live_HLSDRM20180919.swf?v=180.171.5.8.9.6.3.9&ChannelID=btv8&videoTVChannel=btv8&P2PChannelID=pd://cctv_p2p_hdbtv8&tai=btv8&VideoName=btv8&channelID=btv8
 
 ☘️上海频道,#genre#
-全纪实,http://45.192.97.170:8880/play/4178.m3u8
-全纪实,http://183.220.107.138:4022/rtp/239.10.0.105:5140
 新闻综合,https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
 都市剧场,https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8
 金山电视台,https://pili-live-hls.wdit.com.cn/wditlive/8818dfe5f4df45ba9a3f32964d172fb2b6d3.m3u8
@@ -80,9 +91,9 @@ CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 衡阳新闻综合,https://liveplay-srs.voc.com.cn/hls/tv/183_554704.m3u8
 
 ☘️湖北频道,#genre#
+武汉新闻,http://vapi.91kds.cc/live2/hbwhtv.m3u8?apiKey=73c963d13814ce7d0e4743c5e7d033cc&id=hbwhtv1
 
 ☘️广西频道,#genre#
-北海新闻综合,https://live.gxrb.com.cn/gx/beihai/index.m3u8
 南宁新闻综合,rtmp://tv.qntv.net/channellive/ch1?zguizd
 来宾综合,http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
 
@@ -92,7 +103,6 @@ CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 ☘️四川频道,#genre#
 乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd;http://rmlive.lzxrmtzx.com/live1/live1.m3u8?zsicd
 井研综合,http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8
-仁寿综合,https://play.scrstv.com.cn/DT/live.m3u8?auth_key=60001724663204-0-0-c1cc4ded9841ac34f63cdbd3aec647ef
 凉山新闻综合,rtmp://tv.drs.i0834.cn/channellive/ch1?zsicd
 凉山新闻综合,rtmp://tv.drs.yizu.tv/channellive/ch1?zsicd
 凉山语,rtmp://tv.drs.i0834.cn/channellive/ch2?zsicd
@@ -164,6 +174,7 @@ CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 山东文旅,http://58.57.40.22:9901/tsfile/live/1023_1.m3u8
 青州综合,rtmp://sdqz.chinashadt.com:2036/live/stream:1.stream
 东营综合,rtmp://stream.hhek.cn:9936/live/xwzh_sd?shandd
+枣庄公共,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=003b60&tk=6949f8ce7202
 菏泽新闻综合,http://live.hznet.tv:1935/live/live1/500K/tzwj_video.m3u8?shandd
 菏泽经济生活,http://live.hznet.tv:1935/live/live2/500K/tzwj_video.m3u8?shandd
 
@@ -171,6 +182,7 @@ CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 万荣综合,http://60.222.246.220:19433/hls1.m3u8
 大宁综合,http://live.daningtv.com/aac_dngb/playlist.m3u8
 太谷新闻综合,http://p2.vzan.com/slowlive/596867413819827251/live.m3u8
+太谷新闻综合,https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0
 长子综合,https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
 
 ☘️安徽频道,#genre#
@@ -217,7 +229,6 @@ CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 哈尔滨资讯,http://stream.hrbtv.net/zxpd/sd/live.m3u8
 哈尔滨生活,http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
 哈尔滨娱乐,http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild#http://stream.hrbtv.net/ylpd/sd/live.m3u8#https://stream.hrbtv.net/ylpd/sd/live.m3u8
-哈尔滨娱乐,https://stream.hrbtv.net/ylpd/sd/live.m3u8
 七台河新闻综合,http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
 甘南县综合,rtmp://masterpull.hljtv.com/live/YbFyF4Jb
 双鸭山综合,http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
@@ -227,9 +238,7 @@ CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 翡翠台,rtmp://demo2.anj365.com/live/xiangjiaoge-fc
 翡翠台,rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fct
 凤凰中文,rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fhzw
-凤凰中文,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34629
 凤凰资讯,rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fhzx
-凤凰资讯,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34641
 
 🎬电影频道,#genre#
 CHC高清电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -237,17 +246,25 @@ CHC高清电影,http://dassby.qqff.top:99/live/CHC高清/index.m3u8
 CHC高清电影,rtsp://115.153.247.80/PLTV/88888888/224/3221226990/86128784.smil
 CHC高清电影,rtsp://115.153.230.145/PLTV/88888888/224/3221226990/86128784.smil
 CHC高清电影,rtsp://115.153.222.112:554/PLTV/88888888/224/3221226990/86128784.smil
+纬来电影,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34852
 IPTV经典电影,http://tnvcn.com:8012/rtp/239.3.1.195:9024
 天映经典,http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=1919463
-龙祥电影,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34825
 
 🎥咪咕直播,#genre#
 
 🏀体育频道,#genre#
-体育赛事,http://45.192.97.170:8880/play/4187.m3u8
 天津体育,http://168250.xyz:1111/rtp/239.5.1.3:5000
 
 🪁动画频道,#genre#
+少儿动画,rtsp://118.212.169.207:554/PLTV/88888888/224/3221227318/10000100000000060000000001945936_0.smil
+少儿动画,rtsp://115.153.245.70/PLTV/88888888/224/3221227006/86440922.smil
+少儿动画,rtsp://115.153.254.81/PLTV/88888888/224/3221227006/86440922.smil
+少儿动画,rtsp://115.153.240.228:554/PLTV/88888888/224/3221227006/86440922.smil
+少儿动画,rtsp://115.153.212.72/PLTV/88888888/224/3221227006/86440922.smil
+少儿动画,rtsp://115.153.247.80/PLTV/88888888/224/3221227006/86440922.smil
+少儿动画,rtsp://115.153.230.145/PLTV/88888888/224/3221227006/86440922.smil
+少儿动画,rtsp://115.153.222.112:554/PLTV/88888888/224/3221227006/86440922.smil
+少儿动画,rtsp://115.153.233.154/PLTV/88888888/224/3221227006/86440922.smil
 
 🎮游戏频道,#genre#
 
